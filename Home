@@ -3,18 +3,18 @@ window.dataLayer.push({
   event: 'eec.impressionView',
   ecommerce: {
     impressions: [{
-      id: 'match_id_1',
-      name: 'Liverpool v Leicester City',
-      category: 'English Premier League',
+      id: 'product_id_1',
+      name: 'product_name_1',
+      category: 'Salontafel',
       list: 'Home Page',
-      brand: 'Liverpool',
+      brand: 'HKLiving',
       position: 1
     },{
-      id: 'match_id_2',
-      name: 'Manchester United v Liverpool',
-      category: 'English Premier League',
-      list: 'Category Page',
-      brand: 'Manchester United',
+      id: 'product_id_2',
+      name: 'product_name_2',
+      category: 'Hanglamp',
+      list: 'Homepage',
+      brand: 'Lanterfant',
       position: 2
     }]
   }
@@ -28,10 +28,10 @@ window.dataLayer.push({
         list: 'Home Page'
       },
       products: [{
-        id: 'match_id_1',
-        name: 'Liverpool v Leicester City',
-        category: 'English Premier League',
-        brand: 'Liverpool',
+        id: 'product_id_1',
+        name: 'product_name_1',
+        category: 'Salontafel',
+        brand: 'HKLiving',
         position: 1
       }]
     }
