@@ -1,0 +1,33 @@
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'eec.purchase',
+  ecommerce: {
+    currencyCode: 'EUR',
+    purchase: {
+      actionField: {
+        id: 'transaction_id', 
+        affiliation: 'HomeDeco NL',
+        revenue: '303.49',
+        tax: '67.72',
+        shipping: '10.00',
+        coupon: 'DISCOUNTCODE'
+      },
+      products: [{
+        products: [{
+        id: 'product_id_1',
+        name: 'product_name_1',
+        category: 'Salontafel',
+        brand: 'Lanterfant',
+        quantity: 2,
+        price: '144.88' //The price of one (1)! Item
+      },{
+        id: 'product_id_2',
+        name: 'product_name_2',
+        category: 'Hanglamp',
+        brand: 'FUN',
+        quantity: 3
+        price: '112.88' //The price of one (1)! Item
+      }]
+    }
+  }
+});
