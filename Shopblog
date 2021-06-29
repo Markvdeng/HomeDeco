@@ -1,0 +1,39 @@
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'eec.impressionView',
+  ecommerce: {
+    impressions: [{
+      id: 'product_id_1',
+      name: 'product_name_1',
+      category: 'Salontafel',
+      list: 'Shopblog Page',
+      brand: 'HKLiving',
+      position: 1
+    },{
+      id: 'product_id_2',
+      name: 'product_name_2',
+      category: 'Hanglamp',
+      list: 'Homepage',
+      brand: 'Lanterfant',
+      position: 2
+    }]
+  }
+})
+
+window.dataLayer.push({
+  event: 'eec.impressionClick',
+  ecommerce: {
+    click: {
+      actionField: {
+        list: 'Shopblog Page'
+      },
+      products: [{
+        id: 'product_id_1',
+        name: 'product_name_1',
+        category: 'Salontafel',
+        brand: 'HKLiving',
+        position: 1
+      }]
+    }
+  }
+});
