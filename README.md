@@ -1,2 +1,2 @@
-# LFTdataLayer
-DataLayers per page type for LFT
+# HomeDeco Datalayer
+DataLayers per page type for HomeDeco
